@@ -1,0 +1,22 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Landing page for natours",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexmbentley/advanced-css-course.git"
+  },
+  "author": "Alex Bentley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexmbentley/advanced-css-course/issues"
+  },
+  "homepage": "https://github.com/alexmbentley/advanced-css-course#readme",
+  "dependencies": {
+    "sass": "^1.57.1"
+  }
+}
