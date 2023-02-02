@@ -158,9 +158,18 @@
 
 
 
+    @include respond(tab-land) {
+        &__heading {
+            margin-right: 2rem;
+            width: 100%;
+            position: fixed;
+            width: 90%;  
+    }
+}
 
 
-    @include respond(tab-port) {
+    @media only screen and (max-width: 56.25em),
+    only screen and (hover: none) {
         height: auto;
         border-radius: 3px;
         background-color: $color-white;
@@ -172,6 +181,10 @@
         position: relative;
         box-shadow: none;
   
+        &__heading {
+            width: 60%;
+            margin-right: 1rem;
+        }
         
     
         &--back {
